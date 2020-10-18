@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 
+<!-- This file does not need to be edited unless you want to -->
+
 <html>
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>DOM Basics</title>
+	<title>DOM Basics :: Click Events</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
     <script src = "scripts.js"></script>
@@ -14,21 +16,46 @@
 <body>
 	
 	<header id="header">
-		<h1 id="page-title">DOM Basics</h1>
+		<h1 id="page-title">DOM Basics :: Click Events</h1>
 		<h2 id="tagline">beginner practice with the Document Object Model</h3>
 	</header>
 
 	<main> 
-        <section>
-            <h3 id="instruction">Change the color of the line.</h3>
-            <hr id="colored-line">   
-            <p id="choices"><span id="red">Red</span> | <span id="yellow">Yellow</span> | <span id="blue">Blue</span></p>
+        <section class = "container centered"> 
+            <div id="box">
+                <h3>Here's a simple box.</h3>
+            </div> 
         </section>
         
+        <section>
+            <h3>Change the color of the border.</h3>
+            <div class="container row centered"> <!-- inline button group -->
+                <button id="red">Red</button>
+                <button id="yellow">Yellow</button>
+                <button id="blue">Blue</button>
+            </div>
+        </section>
+
+        <section>
+            <h3>Change the thickness of the border.</h3>
+            <div class="container row centered"> <!-- inline button group -->
+                <button id="4">4px</button>
+                <button id="8">8px</button>
+                <button id="12">12px</button>
+            </div>
+        </section>
+
+        <section>
+            <h3>Change the style of the border.</h3>
+            <div class="container row centered"> <!-- inline button group -->
+                <button id="dotted">dotted</button>
+                <button id="double">double</button>
+                <button id="dashed">dashed</button>
+            </div>
+        </section>
+
     </main>
     
 </body>
 
 </html>
-
-<!-- TODO: Ideas - kaleidoscope art game, lights out game -->

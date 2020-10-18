@@ -1,5 +1,8 @@
 /**** CASCADING STYLE SHEET ****/
 
+/*
+    This sheet does not need to be edited unless you want to.
+*/
 
 /**** Defaults for standard elements ****/
 
@@ -19,7 +22,7 @@ body {
 
 header {
 	background-color: #222;
-    height: 160px;
+    height: 140px;
     padding: 20px 120px;
     box-sizing: border-box;
 }
@@ -33,6 +36,10 @@ main {
     box-sizing: border-box;
 }
 
+section {
+    margin: 0px 0px 30px;
+}
+
 div {
     position: relative;
 	margin: 0px;
@@ -41,7 +48,7 @@ div {
 
 h1 { 
     font-family: 'Walter Turncoat', cursive;
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 }
 
 h2 { 
@@ -54,13 +61,8 @@ h2 {
 h3 {
     font-family: 'Walter Turncoat', cursive;
     font-size: 2rem;
-	margin: 5px;  
-}
-
-hr {
-    background-color: #444;
-    height: 0.5rem;
-    border: none;
+    text-align: center;
+    margin: 0px; 
 }
 
 p {
@@ -69,17 +71,21 @@ p {
 
 button {
     height: 2.3rem;
-    padding: 10px 13px;
+    width: 120px;
+    padding: 3px;
     color: white;
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.4rem;
     text-transform: uppercase;
     background-color: #222;
     border: none;
     border-radius: 5px;
-    margin: 30px 0px 10px;
+    margin: 10px;
 }
 
 button:hover {
     cursor: pointer;
+    opacity: 0.80;
 }
 
 button:focus {
@@ -92,7 +98,7 @@ button:focus {
 #page-title {
 	color: white;
 	text-align: center;
-	margin: 0px 0px 20px;  
+	margin: 0px 0px 10px;  
 }
 
 #tagline {
@@ -101,31 +107,39 @@ button:focus {
 	margin: 0px;  
 }
 
-#instruction {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-#choices {
-    font-family: 'Walter Turncoat', cursive;
-    font-size: 1.5rem;
-    text-align: center;
-    margin-top: 20px;
+#box {
+    display: flex;
+    border: 2px solid #222;
+    height: 100px;
+    width: 360px;
+    justify-content: center;
+    align-items: center;
 }
 
 #red {
-    color: #a7240d;
+    background-color: #a7240d;
 }
 
 #yellow {
-    color: #ddac0a;
+    background-color: #ddac0a;
 }
 
 #blue {
-    color: #0d64b6;
+    background-color: #0d64b6;
 }
 
 
 /**** Classes for custom styles ****/
 
+.container {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.centered {
+    justify-content: center; /* applies to flexbox only */
+}
 
