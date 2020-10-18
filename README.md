@@ -1,4 +1,4 @@
-# DOM-practice
+# LC-DOM-Basics
 
 Basic practice using the DOM
 
