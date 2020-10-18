@@ -1,0 +1,131 @@
+/**** CASCADING STYLE SHEET ****/
+
+
+/**** Defaults for standard elements ****/
+
+body {
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #222; 
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+
+header {
+	background-color: #222;
+    height: 160px;
+    padding: 20px 120px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	width: 100%;
+    padding: 30px 120px;
+    box-sizing: border-box;
+}
+
+div {
+    position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 { 
+    font-family: 'Walter Turncoat', cursive;
+	font-size: 3.5rem;
+}
+
+h2 { 
+	font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 2rem;
+	margin: 5px;  
+}
+
+hr {
+    background-color: #444;
+    height: 0.5rem;
+    border: none;
+}
+
+p {
+    margin: .5rem 0px; 
+}
+
+button {
+    height: 2.3rem;
+    padding: 10px 13px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #222;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+
+/**** IDs for specific elements ****/
+
+#page-title {
+	color: white;
+	text-align: center;
+	margin: 0px 0px 20px;  
+}
+
+#tagline {
+    color: white;
+	text-align: center;
+	margin: 0px;  
+}
+
+#instruction {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#choices {
+    font-family: 'Walter Turncoat', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#red {
+    color: #a7240d;
+}
+
+#yellow {
+    color: #ddac0a;
+}
+
+#blue {
+    color: #0d64b6;
+}
+
+
+/**** Classes for custom styles ****/
+
+
