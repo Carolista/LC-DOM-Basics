@@ -2,6 +2,8 @@
 
 Basic practice using the DOM
 
+Demo: https://carolista.github.io/LC-DOM-Basics/
+
 Students - FORK this (all branches) to your own account and then clone down to your local machine. Use the `starter-code` branch as starter code. The `solution` branch shows the code used for the demo.
 
 ## Instructions for switching branches
