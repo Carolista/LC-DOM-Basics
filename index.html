@@ -1,61 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 
 <!-- This file does not need to be edited unless you want to -->
 
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>DOM Basics :: Click Events</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Walter+Turncoat&display=swap"
+			rel="stylesheet" />
+		<script src="scripts.js" defer></script>
+	</head>
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>DOM Basics :: Click Events</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&family=Walter+Turncoat&display=swap" rel="stylesheet">
-    <script src = "scripts.js"></script>
-</head>
+	<body>
+		<header id="header">
+			<h1 id="page-title">DOM Basics :: Click Events</h1>
+			<h2 id="tagline">Beginner practice with the Document Object Model</h2>
+		</header>
 
-<body>
-	
-	<header id="header">
-		<h1 id="page-title">DOM Basics :: Click Events</h1>
-		<h2 id="tagline">beginner practice with the Document Object Model</h3>
-	</header>
+		<main>
+			<section class="container centered">
+				<div id="box">
+					<h3>Here's a simple box.</h3>
+				</div>
+			</section>
 
-	<main> 
-        <section class = "container centered"> 
-            <div id="box">
-                <h3>Here's a simple box.</h3>
-            </div> 
-        </section>
-        
-        <section>
-            <h3>Change the color of the border.</h3>
-            <div class="container row centered"> <!-- inline button group -->
-                <button id="red">Red</button>
-                <button id="yellow">Yellow</button>
-                <button id="blue">Blue</button>
-            </div>
-        </section>
+			<section>
+				<h3>Change the thickness of the border.</h3>
+				<div class="container centered">
+					<button id="4">4px</button>
+					<button id="8">8px</button>
+					<button id="12">12px</button>
+				</div>
+			</section>
 
-        <section>
-            <h3>Change the thickness of the border.</h3>
-            <div class="container row centered"> <!-- inline button group -->
-                <button id="4">4px</button>
-                <button id="8">8px</button>
-                <button id="12">12px</button>
-            </div>
-        </section>
+			<section>
+				<h3>Change the color of the border.</h3>
+				<div class="container centered">
+					<button id="red">Red</button>
+					<button id="yellow">Yellow</button>
+					<button id="blue">Blue</button>
+				</div>
+			</section>
 
-        <section>
-            <h3>Change the style of the border.</h3>
-            <div class="container row centered"> <!-- inline button group -->
-                <button id="dotted">dotted</button>
-                <button id="double">double</button>
-                <button id="dashed">dashed</button>
-            </div>
-        </section>
-
-    </main>
-    
-</body>
-
+			<section>
+				<h3>Change the style of the border.</h3>
+				<div class="container centered">
+					<button id="dotted">dotted</button>
+					<button id="double">double</button>
+					<button id="dashed">dashed</button>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
