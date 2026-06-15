@@ -7,7 +7,7 @@ let box = document.getElementById('box');
 
 /*** CHANGE THE BORDER THICKNESS ***/
 
-// Declare objects to gain access to element properties
+// Declare objects representing the three width buttons
 let four = document.getElementById('4');
 let eight = document.getElementById('8');
 let twelve = document.getElementById('12');
@@ -25,7 +25,7 @@ twelve.addEventListener('click', () => changeBorderWidth(12));
 
 /*** CHANGE THE BORDER COLOR ***/
 
-// Declare objects representing the three colored buttons
+// Declare objects representing the three color buttons
 let red = document.getElementById('red');
 let yellow = document.getElementById('yellow');
 let blue = document.getElementById('blue');
@@ -44,18 +44,8 @@ blue.addEventListener('click', () => changeBorderColor('blue', '#0d64b6'));
 
 /*** CHANGE THE BORDER STYLE ***/
 
-// Declare objects to gain access to element properties
-let dotted = document.getElementById('dotted');
-let double = document.getElementById('double');
-let dashed = document.getElementById('dashed');
+// TODO: Declare objects representing the three style buttons
 
-// Define a reusable function that manipulates the border-style property
-function changeBorderStyle(style) {
-	console.log(`Make it ${style}!`);
-	box.style.borderStyle = style;
-}
+// TODO: Define a reusable function that manipulates the border-style property
 
-// Create listeners to change style of box border
-dotted.addEventListener('click', () => changeBorderStyle('dotted'));
-double.addEventListener('click', () => changeBorderStyle('double'));
-dashed.addEventListener('click', () => changeBorderStyle('dashed'));
+// TODO: Create listeners to change style of box border
