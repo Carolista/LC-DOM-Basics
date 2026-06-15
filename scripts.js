@@ -8,7 +8,7 @@
 
 // DEMO: Declare objects representing the three width buttons
 
-// DEMO: Create a reusable function that manipulates the border-width property
+// DEMO: Define a reusable function that manipulates the border-width property
 
 // DEMO: Create listeners to change thickness of box border
 
@@ -16,7 +16,7 @@
 
 // DEMO: Declare objects representing the three color buttons
 
-// DEMO: Create a reusable function to manipulate the border-color property
+// DEMO: Define a reusable function to manipulate the border-color property
 
 // DEMO: Create listeners to change color of border to same hex values as buttons
 // Note: DOM can't access style sheets, so we must provide the color codes
