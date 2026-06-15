@@ -12,7 +12,7 @@ let four = document.getElementById('4');
 let eight = document.getElementById('8');
 let twelve = document.getElementById('12');
 
-// Create a reusable function that manipulates the border-width property
+// Define a reusable function that manipulates the border-width property
 function changeBorderWidth(width) {
     console.log(`Make it ${width} pixels thick!`);
     box.style.borderWidth = width + 'px';
@@ -30,7 +30,7 @@ let red = document.getElementById('red');
 let yellow = document.getElementById('yellow');
 let blue = document.getElementById('blue');
 
-// Create a reusable function to manipulate the border-color property
+// Define a reusable function to manipulate the border-color property
 function changeBorderColor(name, hexCode) {
 	console.log(`Make it ${name}!`);
 	box.style.borderColor = hexCode;
