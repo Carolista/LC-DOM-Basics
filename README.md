@@ -2,7 +2,9 @@
 
 Basic practice using the DOM
 
-Demo: https://carolista.github.io/LC-DOM-Basics/
+Demo: http://CodeWithCarrie.com/LC-DOM-Basics/
+
+Students - FORK this to your own account and then clone down to your local machine.
 
 NOTE:
 - The solution is here in the `main` branch.
