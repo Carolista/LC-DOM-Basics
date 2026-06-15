@@ -37,7 +37,7 @@ function changeBorderColor(name, hexCode) {
 }
 
 // Create listeners to change color of border to same hex values as buttons
-// Note: DOM can't access style sheets, so we must provide the color code
+// Note: DOM can't access style sheets, so we must provide the color codes
 red.addEventListener('click', () => changeBorderColor('red', '#a7240d'));
 yellow.addEventListener('click', () => changeBorderColor('yellow', '#ddac0a'));
 blue.addEventListener('click', () => changeBorderColor('blue', '#0d64b6'));
